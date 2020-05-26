@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>iButu</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="topnav.css" >
+  <link rel="stylesheet" href="social.css" >
+  <link rel="stylesheet" href="content.css" >
+  <link rel="stylesheet" href="about.css" >
+</head>
+
+<body style="background-color: #333">
+	<!--<div id="example1">	
+	</div>-->
+  <div class="toptext">
+  	<ul>
+  		<li><a href="" class="fa fa-envelope" > Contact</a></li>
+  		<li><a class="fa fa-exclamation" onclick="openNav()"> About</a></li>
+  		<li><a href="" class="fa fa-book"> Blog</a></li>
+  		<li><a href="" class="fa fa-home"> Home</a></li>
+  		<li style="float: left;font-size: 20px;"><a href="">iButu</a></li>
+  	</ul>
+  </div>
+	<br>
+	
+	<div class="bg-text">
+	  	<h1 style="font-size:50px">Welcome! Personal Blog Shots</h1>
+	</div>
+
+  <div id="mySidenav" class="sidenav">
+    <a href="#" id="facebook" class="fa fa-facebook"> facebook</a>
+    <a href="#" id="instagram" class="fa fa-instagram"> instagram</a>
+    <a href="#" id="twitter" class="fa fa-twitter"> twitter</a>
+    <a href="#" id="snapchat" class="fa fa-snapchat-ghost"> snapchat</a>
+    <a href="#" id="linkedin" class="fa fa-linkedin"> linkedin</a>
+  </div>
+
+    <div class="column middle">
+      <div class="column buttons">
+        <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+        <button class="btn" onclick="filterSelection('nature')"> Nature</button>
+        <button class="btn" onclick="filterSelection('cars')"> Cars</button>
+      </div>
+
+      <div class="column grids">
+        <!-- Portfolio Gallery Grid -->
+
+          <div class="column nature">
+            <div class="content">
+              <img src="D:/Documents/Projects/Photos/IMG_20200525_132002.jpg" alt="Mountains">
+              <h4>Mountains</h4>
+              <p>Lorem ipsum dolor..</p>
+            </div>
+          </div>
+
+          <div class="column nature">
+            <div class="content">
+            <img src="D:/Documents/Projects/Photos/IMG_20200413_182903.jpg" alt="Mountains" >
+              <h4>Lights</h4>
+              <p>Lorem ipsum dolor..</p>
+            </div>
+          </div>
+
+          
+          <div class="column cars">
+            <div class="content">
+            <img src="D:/Documents/Projects/Photos/IMG20200409175911.jpg" alt="Car">
+              <h4>Fast</h4>
+              <p>Lorem ipsum dolor..</p>
+            </div>
+          </div>
+          <div class="column cars">
+            <div class="content">
+            <img src="D:/Documents/Projects/Photos/IMG_20200423_232707.jpg" alt="Car" >
+              <h4>Classic</h4>
+              <p>Lorem ipsum dolor..</p>
+            </div>
+          </div>
+
+          <div class="column nature">
+            <div class="content">
+            <img src="D:/Documents/Projects/Photos/IMG20191221092606.jpg" alt="Nature">
+              <h4>Forest</h4>
+              <p>Lorem ipsum dolor..</p>
+            </div>
+          </div>
+          
+          <div class="column cars">
+            <div class="content">
+              <img src="D:/Documents/Projects/Photos/IMG_20200411_060839.jpg" alt="Car">
+              <h4>Retro</h4>
+              <p>Lorem ipsum dolor..</p>
+            </div>
+          </div>
+        <!-- END GRID -->
+      </div>
+    </div>
+
+    <!--About-->
+    <div id="myNav" class="overlay">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+          <div class="aboutcolumn aboutcard">
+            <div class="content">
+              <img src="D:/Documents/Projects/Photos/38478846_548659782218729_8703904529906663424_n.jpg" alt="Mountains">
+              <h4>Mayank Singh</h4>
+              <p>Lorem ipsum dolor..</p>
+              <div class="sabout">
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-instagram"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-snapchat-ghost"></a>
+                <a href="#" class="fa fa-linkedin"></a>
+              </div>
+            </div>
+          </div>
+          <div class="aboutcolumn aboutcard">
+            <div class="content">
+              <img src="D:/Documents/Projects/Photos/IMG_20200525_205723-01-01.jpeg" alt="Mountains">
+              <h4>Vibhutu</h4>
+              <p>Lorem ipsum dolor..</p>
+              <div class="sabout">
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-instagram"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-snapchat-ghost"></a>
+                <a href="#" class="fa fa-linkedin"></a>
+              </div>
+            </div>
+          </div>
+    </div>
+
+  <script>
+  function openNav() {
+    document.getElementById("myNav").style.height = "100%";
+  }
+
+  function closeNav() {
+    document.getElementById("myNav").style.height = "0%";
+  }
+</script>
+</body>
+</html>
