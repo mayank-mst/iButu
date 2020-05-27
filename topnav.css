@@ -1,3 +1,8 @@
+body{
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
 ul {
   list-style-type: none;
   margin: 0;
@@ -21,21 +26,17 @@ li a {
 
 li a:hover:not(.active) {
   background-color: #FF4500;
+  border-radius: 10px 10px 10px 10px;
 }
 
 
 .bg-text {
-  color: white;
+  font-size: 25px;
   font-weight: bold;
-  position: absolute;
-  top: 15%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 2;
-  width: 50%;
-  height: 10%;
+  position: relative;
   padding: 0px;
   text-align: center;
+  color: white;
 }
 .toptext{
   text-decoration: none;
@@ -43,10 +44,3 @@ li a:hover:not(.active) {
   color: white;
   border-radius: 5px 0px 0px 5px;
 }
-
-/*#example1 {
-  padding: 800px;
-  background: url(IMG20191221092606.jpg);
-  background-repeat: no-repeat;
-  background-size: 1340px 600px
-}*/

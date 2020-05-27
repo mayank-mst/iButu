@@ -1,5 +1,5 @@
 #mySidenav a {
-  position: absolute;
+  position: fixed;
   right: -105px;
   transition: 0.3s;
   padding: 15px;
@@ -33,7 +33,7 @@
 
 #instagram {
   top: 280px;
-  background: #C13584;
+  background: writings;
 }
 
 .fa-twitter {
